@@ -1,5 +1,5 @@
 {
-    "name": "haleks/writedown",
+    "name": "seka19/writedown",
     "description": "Writedown integrate markdown \"curly\" braces inside the blade template engine, adding view extension and also giving the possibility of extending CommonMark.",
     "keywords": ["writedown", "laravel", "blade", "markdown", "parsedown", "parsedown extra", "commonmark"],
     "license": "MIT",
@@ -14,10 +14,10 @@
         }
     ],
     "require": {
-        "php": "^7.1.3",
-        "illuminate/contracts": "5.7.*",
-        "illuminate/support": "5.7.*",
-        "illuminate/view": "5.7.*"
+        "php": "^7.4",
+        "illuminate/contracts": "^8.0",
+        "illuminate/support": "^8.0",
+        "illuminate/view": "^8.0"
     },
     "require-dev": {
         "erusev/parsedown": "~1.6",
