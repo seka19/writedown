@@ -94,7 +94,7 @@ class ParserManager extends Manager
      */
     public function getDefaultDriver()
     {
-        $default = $this->app['config']['writedown.default'];
+        $default = app('config')->get('writedown.default');
 
         return $default === 'null' ? $default : $this->getConfigDriver($default);
     }
@@ -107,7 +107,7 @@ class ParserManager extends Manager
      */
     protected function getConfig($name)
     {
-        return $this->app['config']["writedown.parsers.{$name}"];
+        return app('config')->get("writedown.parsers.{$name}");
     }
 
     /**
